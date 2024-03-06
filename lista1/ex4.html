@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+
+    <script>
+
+        let custoFabrica = parseFloat(prompt("Digite o custo de fábrica do carro:"));
+      
+        const percentualDistribuidor = 0.28;
+        const percentualImpostos = 0.45;
+      
+        let custoDistribuidor = custoFabrica * percentualDistribuidor;
+        let custoImpostos = custoFabrica * percentualImpostos;
+        let custoFinal = custoFabrica + custoDistribuidor + custoImpostos;
+
+        console.log("O custo final ao consumidor é: R$" + custoFinal.toFixed(2));
+        
+      </script>
+      
+</head>
+<body>
+    
+</body>
+</html>
